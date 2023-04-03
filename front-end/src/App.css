@@ -1,0 +1,291 @@
+.button-visible {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  margin-left: 240px;
+  margin-top: 6px;
+  outline: none;
+  overflow: hidden;
+  position: absolute;
+}
+
+.input-format {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row-reverse;
+  height: 38px;
+  margin-bottom: 20px;
+  width: 215px;
+}
+
+.login-page-container {
+  align-items: center;
+  background-image: url('./images/drink-background.jpg');
+  background-position-y: -170px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.login-items-container {
+  align-items: center;
+  background-color: rgba(219, 218, 218, 0.726);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  justify-content: space-around;
+  width: 300px;
+}
+
+.login-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-form input {
+  text-align: center;
+}
+
+.register-page-container {
+  align-items: center;
+  background-image: url('./images/drink-background.jpg');
+  background-position-y: -170px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.register-items-container {
+  align-items: center;
+  background-color: rgba(219, 218, 218, 0.726);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  justify-content: space-around;
+  width: 300px;
+}
+
+.register-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.register-form input {
+  text-align: center;
+}
+
+.navBar {
+  align-items: center;
+  background: mediumseagreen;
+  display: flex;
+  font-family: system-ui , -apple-system , Helvetica , Arial , sans-serif;
+  height: 8vh;
+  justify-content: space-around;
+  margin-left: -20px;
+  margin-top: -20px;
+  padding: 14px;
+  width: 100%;
+}
+
+.navBar-a {
+  color: white;
+  margin-left: 52px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.item {
+  display: inline-block;
+  margin: 5px;
+  margin-left: 35px;
+  text-align: center;
+  width: 200px;
+}
+
+.item2 {
+  display: inline-block;
+  margin: 5px;
+  margin-left: 35px;
+  margin-top: 30px;
+  text-align: center;
+  width: 200px;
+}
+
+
+.inputEmail {
+  font: small-caption;
+  font-size: 16px;
+  margin-left: -2px;
+}
+
+.inputPassoword {
+  font: small-caption;
+  font-size: 16px;
+  margin-left: 25px;
+}
+
+.buttonLogin {
+  background-color: mediumseagreen;
+  border: none;
+  cursor: pointer;
+  margin: 3px;
+  padding: 14px;
+  width: 100%;
+}
+
+.buttonLogin:hover {
+  opacity: 0.8;
+}
+
+.buttonNegative {
+  background-color: darkred;
+  color: white;
+  cursor: pointer;
+}
+
+.buttonNegative:hover {
+  opacity: 0.8;
+}
+
+.buttonPositive {
+  background-color: darkgreen;
+  color: white;
+  cursor: pointer;
+}
+
+.buttonPositive:hover {
+  opacity: 0.8;
+}
+
+.card {
+  cursor: pointer;
+  display: inline-block;
+  outline: 0.1rem solid black;
+  outline-offset: -1.5rem;
+  padding: 3rem 2rem;
+  text-align: center;
+  width: 200px;
+}
+
+.quantity {
+  text-align: center;
+  width: 40px;
+}
+
+.total {
+  background-color: mediumseagreen;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.total:hover {
+  opacity: 0.8;
+}
+
+.remove {
+  background-color: skyblue;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+.remove:hover {
+  opacity: 0.8;
+}
+
+.totalPrice {
+  text-align: center;
+}
+
+.endOfList {
+  border-radius: 3px;
+  margin-left: 600px;
+  margin-top: 100px;
+  width: 20%;
+}
+
+.detailNumberInput {
+  text-align: center;
+}
+
+.detailNumber {
+  margin-left: 2px;
+
+}
+
+.detailText {
+  margin-left: 2px;
+}
+
+.detail {
+  display: inline-flex;
+  margin-left: 350px;
+  outline: 0.1rem solid black;
+  outline-offset: -2.5rem;
+  padding: 3rem 5rem;
+  text-align: center;
+  width: 600px;
+}
+
+.sellerSelect {
+  height: 22px;
+  text-align: center;
+  width: 200px;
+}
+
+.buttonRegister {
+  background-color: mediumseagreen;
+  border: none;
+  cursor: pointer;
+  margin: 3px;
+  margin-top: 30px;
+  padding: 14px;
+  width: 100%;
+}
+
+.buttonRegister:hover {
+  opacity: 0.8;
+}
+
+.inputAdm {
+  font: small-caption;
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-left: -2px;
+}
+
+.roleAdm {
+  height: 22px;
+  margin-bottom: 15px;
+  text-align: center;
+  width: 220px;
+}
+
+.buttonAdm {
+  background-color: mediumseagreen;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 14px;
+  width: 100%;
+
+}
+
+.buttonAdm:hover {
+  opacity: 0.8;
+}
